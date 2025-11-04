@@ -1,0 +1,51 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.successText {
+    color: #4CAF50 !important;
+}
+
+.successText:hover {
+    color: #559a57 !important;
+}
+
+.dangerText {
+    color: #CB413F !important;
+}
+
+.dangerText:hover {
+    color: #B23E41 !important;
+}
+
+.bodyText {
+    color: #3b3b3b !important;
+}
+
+.bodyText:hover {
+    color: #2E2E31 !important;
+}
+
+.successButton {
+    color: #4CAF50 !important;
+}
+
+.successButton:hover {
+    color: #559a57 !important;
+}
+
+.dangerButton {
+    color: #CB413F !important;
+}
+
+.dangerButton:hover {
+    color: #B23E41 !important;
+}
+
+.bodyButton {
+    color: #3b3b3b !important;
+}
+
+.bodyButton:hover {
+    color: #2E2E31 !important;
+}
