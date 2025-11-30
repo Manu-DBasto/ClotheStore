@@ -38,6 +38,12 @@ export const Login = () => {
                             <Link to={"/contacts"}>Ver.</Link>
                         </span>
                     </p>
+                    <p className="text-center m-0">
+                        Camara{": "}
+                        <span className="text-primary">
+                            <Link to={"/camera"}>Ver.</Link>
+                        </span>
+                    </p>
                 </div>
             </div>
         </>

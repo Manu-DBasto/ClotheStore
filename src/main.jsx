@@ -11,6 +11,7 @@ import { Cart } from "./routes/Cart";
 import { Ticket } from "./routes/Ticket";
 import { PasswordRecover } from "./routes/PasswordRecover";
 import ContactPicker from "./routes/ContactPicker";
+import { Camera } from "./routes/Camera";
 
 import { RouteProtection } from "./routes/RouteProtection";
 import { AdminProtection } from "./routes/RouteProtection";
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
     {
         path: "/contacts",
         element: <ContactPicker />,
+    },
+    {
+        path: "/camera",
+        element: <Camera />,
     },
     {
         path: "/",
