@@ -17,9 +17,6 @@ export const Camera = () => {
             if (videoRef.current) {
                 videoRef.current.srcObject = stream;
             }
-            setTimeout(() => {
-                track.stop();
-            }, 3000);
         } catch (error) {
             console.error(error);
         }
