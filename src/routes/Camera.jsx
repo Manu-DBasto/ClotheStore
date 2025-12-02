@@ -34,6 +34,8 @@ export const Camera = () => {
             const imgURL = URL.createObjectURL(blob);
             const imgElement = document.createElement("img");
             imgElement.src = imgURL;
+            imgElement.width = 50;
+            imgElement.height = 50;
             document.body.appendChild(imgElement);
             setprofilePicture(imgURL);
         } catch (error) {
@@ -46,7 +48,7 @@ export const Camera = () => {
             <nav className="navbar bg-body-tertiary">
                 <div className="container d-flex justify-content-between">
                     {profilePicture != "" ? (
-                        <img height={50} width={50} />
+                        <img src={profilePicture} height={50} width={50} />
                     ) : (
                         <img
                             src="images/placeholder/profile-holder.png"
